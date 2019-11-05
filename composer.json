@@ -1,0 +1,27 @@
+{
+    "name": "alex-oleshkevich/classnames",
+    "description": "A missing class name extractor from PHP files.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/alex-oleshkevich/classnames",
+    "authors": [
+        {
+            "name": "Alex Oleshkevich",
+            "email": "alex.oleshkevich@gmail.com",
+            "homepage": "http://github.com/alex-oleshkevich"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClassNames\\": "src/",
+            "ClassNamesTest\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "*"
+    }
+}
+
